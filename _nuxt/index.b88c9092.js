@@ -1,1 +1,0 @@
-import c from"./index.8b50538b.js";import{J as _,o,E as n,M as t}from"./entry.5c4d573f.js";const s={},a={class:"index-page"};function d(r,p){const e=c;return o(),n("section",a,[t(e,{class:"index-page__placeholder"})])}const f=_(s,[["render",d],["__scopeId","data-v-dfca16cb"]]);export{f as default};
