@@ -2,7 +2,7 @@
     <div class="not-found">
         <img
             class="not-found__image"
-            src="vincent.gif"
+            src="/vincent.gif"
         >
     </div>
 </template>
