@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist -b prod",
+    "deploy": "gh-pages -d dist -b prod --dotfiles",
     "predeploy": "yarn generate"
   },
   "devDependencies": {

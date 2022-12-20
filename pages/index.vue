@@ -1,5 +1,5 @@
 <template>
   <article>
-    :) — ето я
+    :) — ето я улыбаюсь вам
   </article>
 </template>
