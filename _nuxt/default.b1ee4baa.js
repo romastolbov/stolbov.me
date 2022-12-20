@@ -1,0 +1,1 @@
+import{e as o,o as n,E as a,M as s,N as _}from"./entry.5c4d573f.js";import{u as c}from"./composables.d5cb9142.js";const u="\u0420\u043E\u043C\u0430 \u0421\u0442\u043E\u043B\u0431\u043E\u0432",f=o({__name:"default",setup(m){return c({titleTemplate:e=>e?`${e} \u2014 ${u}`:u}),(e,r)=>{const t=_;return n(),a("main",null,[s(t)])}}});export{f as default};
