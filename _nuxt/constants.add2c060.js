@@ -1,0 +1,1 @@
+const u="\u0420\u043E\u043C\u0430 \u0421\u0442\u043E\u043B\u0431\u043E\u0432";export{u as A};
