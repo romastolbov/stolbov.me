@@ -1,0 +1,99 @@
+body {
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 100%;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-kerning: normal;
+  word-wrap: break-word;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.85rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 3.5rem;
+  margin-bottom: var(--margin-bottom);
+  line-height: 1.3;
+  font-weight: 500;
+
+  a {
+    color: var(--color);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+
+  @media (hover: hover) {
+    &:hover {
+      color: var(--link) !important;
+    }
+  }
+}
+
+ol, ul {
+  margin: 0 0 var(--margin-bottom);
+}
+
+p {
+  padding: 0;
+  margin: 0 0 var(--margin-bottom);
+}
+
+pre {
+  background: var(--code);
+  margin-bottom: var(--margin-bottom);
+  padding: var(--horizontal-padding);
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  overflow: auto;
+}
+
+p > code, li > code {
+  background: var(--code);
+  padding: 4px 6px;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+blockquote {
+  margin: 0 0 var(--margin-bottom);
+  padding: var(--horizontal-padding);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  color: var(--secondary);
+
+  p:last-child, pre:last-of-type  {
+    margin-bottom: 0;
+  }
+}

@@ -22,67 +22,12 @@
 
 @font-face {
   font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Light.eot');
-  src: local('SF UI Display Light'), local('SFUIDisplay-Light'),
-  url('~/assets/fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Light.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Thin.eot');
-  src: local('SF UI Display Thin'), local('SFUIDisplay-Thin'),
-  url('~/assets/fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Thin.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Ultralight.eot');
-  src: local('SF UI Display Ultralight'), local('SFUIDisplay-Ultralight'),
-  url('~/assets/fonts/SFUIDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Ultralight.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SF UI Display';
   src: url('~/assets/fonts/SFUIDisplay-Semibold.eot');
   src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
   url('~/assets/fonts/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
   url('~/assets/fonts/SFUIDisplay-Semibold.woff') format('woff'),
   url('~/assets/fonts/SFUIDisplay-Semibold.ttf') format('truetype');
   font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Black.eot');
-  src: local('SF UI Display Black'), local('SFUIDisplay-Black'),
-  url('~/assets/fonts/SFUIDisplay-Black.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Black.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Black.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Heavy.eot');
-  src: local('SF UI Display Heavy'), local('SFUIDisplay-Heavy'),
-  url('~/assets/fonts/SFUIDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Heavy.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Heavy.ttf') format('truetype');
-  font-weight: 900;
   font-style: normal;
 }
 

@@ -1,14 +1,24 @@
-<script setup lang="ts">
-import { useHead } from "#imports";
-import { AUTHOR } from "~/utils/constants";
+<script lang="ts">
+import { AUTHOR, defineComponent, useHead } from '#imports'
 
-useHead({
-  titleTemplate: title => title ? `${title} — ${AUTHOR}` : AUTHOR
+import TheFooter from '~/components/TheFooter/index.vue'
+
+export default defineComponent({
+  name: 'DefaultLayout',
+  components: {
+    TheFooter,
+  },
+  setup() {
+    useHead({
+      titleTemplate: title => title ? `${title} — ${AUTHOR}` : AUTHOR,
+    })
+  },
 })
 </script>
 
 <template>
   <main>
     <NuxtPage />
+    <TheFooter />
   </main>
 </template>
