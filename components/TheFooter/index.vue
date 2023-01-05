@@ -28,6 +28,7 @@ export default defineComponent({
 <style lang="scss">
 .footer {
   padding-top: 100px;
+  padding-bottom: var(--vertical-padding);
 
   &__copyright {
     padding-top: 25px;
