@@ -1,5 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // App
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru-RU',
+      },
+    },
+  },
+
   // Global styles
   css: [
     '~/assets/styles/normalize.css',
