@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Stolbov.me
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+My personal website built in Nuxt and using Nuxt Content.
 
 ## Setup
 
