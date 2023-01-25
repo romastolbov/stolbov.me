@@ -35,6 +35,7 @@ export default defineNuxtConfig({
   // Content
   content: {
     highlight: {
+      preload: ['css', 'scss', 'js', 'ts'],
       theme: {
         default: 'vitesse-dark',
       },

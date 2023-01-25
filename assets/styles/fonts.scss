@@ -1,43 +1,70 @@
 @font-face {
   font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Medium.eot');
+  src: url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Medium.eot');
   src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
-  url('~/assets/fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Medium.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Medium.ttf') format('truetype');
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Medium.woff') format('woff'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Regular.eot');
+  src: url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Regular.eot');
   src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
-  url('~/assets/fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Regular.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Regular.ttf') format('truetype');
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Regular.woff') format('woff'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Semibold.eot');
+  src: url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Semibold.eot');
   src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
-  url('~/assets/fonts/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Semibold.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Semibold.woff') format('woff'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SF UI Display';
-  src: url('~/assets/fonts/SFUIDisplay-Bold.eot');
+  src: url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Bold.eot');
   src: local('SF UI Display Bold'), local('SFUIDisplay-Bold'),
-  url('~/assets/fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/fonts/SFUIDisplay-Bold.woff') format('woff'),
-  url('~/assets/fonts/SFUIDisplay-Bold.ttf') format('truetype');
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Bold.woff') format('woff'),
+  url('~/assets/fonts/SanFranciscoUIDisplay/SFUIDisplay-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-600.woff2') format('woff2'),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-italic.woff2') format('woff2'),
+       url('~/assets/fonts/JetBrainsMono/jetbrains-mono-v13-latin_cyrillic-ext_cyrillic-italic.woff') format('woff');
 }
