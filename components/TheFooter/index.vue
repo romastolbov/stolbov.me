@@ -1,25 +1,33 @@
 <script lang="ts">
-import { AUTHOR, defineComponent } from '#imports'
+import { defineComponent } from '#imports'
+
+import SimpleIconsNuxtdotjs from '~/components/Icons/SimpleIconsNuxtdotjs.vue'
 
 export default defineComponent({
   name: 'TheFooter',
-  setup() {
-    const author = AUTHOR
-    return { author }
-  },
+  components: { SimpleIconsNuxtdotjs },
 })
 </script>
 
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="footer__copyright">
+      <div class="footer__inner">
         <a
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
           target="_blank"
+          class="footer__copyright"
         >
-          CC BY-NC-SA 4.0 2023
-        </a> © {{ author }}
+          CC BY-NC-SA 4.0
+        </a>
+        <a
+          href="https://nuxt.com/"
+          target="_blank"
+          class="footer__powered"
+        >
+          <SimpleIconsNuxtdotjs />
+          Powered by Nuxt
+        </a>
       </div>
     </div>
   </footer>
@@ -30,15 +38,23 @@ export default defineComponent({
   padding-top: 100px;
   padding-bottom: var(--vertical-padding);
 
-  &__copyright {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
     padding-top: 25px;
     border-top: 1px solid var(--border);
-    font-size: 14px;
-    color: var(--secondary);
+    font-size: 13px;
+  }
 
-    a {
-      color: var(--color);
-    }
+  &__copyright {
+    color: var(--color);
+  }
+
+  &__powered {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--secondary);
   }
 }
 </style>
