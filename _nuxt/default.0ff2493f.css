@@ -1,0 +1,1 @@
+.footer{padding-bottom:var(--vertical-padding);padding-top:100px}.footer__inner{border-top:1px solid var(--border);display:flex;font-size:13px;justify-content:space-between;padding-top:25px}.footer__copyright{color:var(--color)}.footer__powered{align-items:center;color:var(--secondary);display:flex;gap:8px}
