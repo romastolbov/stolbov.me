@@ -53,6 +53,9 @@ export default defineComponent({
         </TheBlock>
         <TheBlock title="Блог">
           <PostList />
+          <NuxtLink to="/posts" class="index-page__all-posts">
+            Все посты
+          </NuxtLink>
         </TheBlock>
       </div>
     </article>
@@ -66,6 +69,12 @@ export default defineComponent({
     flex-direction: column;
     max-width: 400px;
     gap: 100px;
+  }
+
+  &__all-posts {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 14px;
   }
 }
 </style>
